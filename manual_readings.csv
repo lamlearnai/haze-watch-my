@@ -1,0 +1,17 @@
+Area,Date of Reading,Time  of Reading,API Readings,Station Name,Source,Index Type,pm25_ugm3
+Petaling Jaya,18/9/2026,2:26 PM,165,Petaling Jaya,EQMS,Malaysia API,
+Cyberjaya/Putrajaya,18/9/2026,2:31 PM,175,Putrajaya,EQMS,Malaysia API,
+Kampung Batu Muda,18/9/2026,2:34 PM,169,Batu Muda,EQMS,Malaysia API,
+Cheras,18/9/2026,2:40 PM,168,Cheras,EQMS,Malaysia API,
+Petaling Jaya,18/9/2026,3:10 PM,164,Petaling Jaya,EQMS,Malaysia API,
+Cyberjaya/Putrajaya,18/9/2026,3:08 PM,174,Putrajaya,EQMS,Malaysia API,
+Kampung Batu Muda,18/9/2026,3:10 PM,168,Batu Muda,EQMS,Malaysia API,
+Cheras,18/9/2026,3:09 PM,167,Cheras,EQMS,Malaysia API,
+Petaling Jaya,18/9/2026,3:16 PM,204,Petaling Jaya,IQAir,AQI*US,128.3
+Cyberjaya/Putrajaya,18/9/2026,3:14 PM,177,Putrajaya,IQAir,AQI*US,92.9
+Kampung Batu Muda,18/9/2026,3:15 PM,169,Batu Muda,IQAir,AQI*US,81.1
+Cheras,18/9/2026,3:12 PM,168,Cheras,IQAir,AQI*US,79.7
+Petaling Jaya,18/9/2026,8:19 PM,159,Petaling Jaya,EQMS,Malaysia API,
+Cyberjaya/Putrajaya,18/9/2026,8:19 PM,168,Putrajaya,EQMS,Malaysia API,
+Kampung Batu Muda,18/9/2026,8:17 PM,166,Batu Muda,EQMS,Malaysia API,
+Cheras,18/9/2026,8:18 PM,162,Cheras,EQMS,Malaysia API,
