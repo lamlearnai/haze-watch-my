@@ -1,0 +1,28 @@
+# EQMS continuous air quality monitoring stations, Klang Valley.
+# Coordinates are the station sites themselves, not town centres, so that
+# Open-Meteo data can be compared like for like against official readings.
+
+stations:
+  - name: Petaling Jaya
+    station_site: Sekolah Kebangsaan Bandar Utama
+    state: Selangor
+    lat: 3.132170
+    lon: 101.608140
+
+  - name: Cheras
+    station_site: Sekolah Menengah Kebangsaan Seri Permaisuri
+    state: Kuala Lumpur
+    lat: 3.106222
+    lon: 101.717909
+
+  - name: Batu Muda
+    station_site: Sekolah Kebangsaan Batu Muda
+    state: Kuala Lumpur
+    lat: 3.212439
+    lon: 101.682228
+
+  - name: Putrajaya
+    station_site: Sekolah Kebangsaan Putrajaya Presint 8(2)
+    state: Putrajaya
+    lat: 2.931862
+    lon: 101.681775

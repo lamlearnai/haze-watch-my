@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: haze-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: haze
+      POSTGRES_USER: haze
+      # Read from .env - never hardcode credentials here.
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    ports:
+      # Host port 5433 avoids clashing with any local Postgres on 5432.
+      - "5434:5432"
+    volumes:
+      - haze_pgdata:/var/lib/postgresql/data
+      # Anything in this folder runs once, on first startup only.
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U haze -d haze"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  haze_pgdata:
